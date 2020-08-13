@@ -35,7 +35,7 @@ int main()
 	cout << "" << endl;
 	cout << "After Moving the sqaure Object" << endl;
 	cout << "" << endl;
-	for (int i = 0; i < 2; i++)
+	for (int i = 0; i < 3; i++)
 	{
 		sh[i]->display();
 	}
@@ -44,7 +44,7 @@ int main()
 	cout << "" << endl;
 	cout << "After Moving the Rectangle Object" << endl;
 	cout << "" << endl;
-	for (int i = 0; i < 2; i++)
+	for (int i = 0; i < 3; i++)
 	{
 		sh[i]->display();
 	}
@@ -53,7 +53,7 @@ int main()
 	cout << "" << endl;
 	cout << "After Rotating Square" << endl;
 	cout << "" << endl;
-	for (int i = 0; i < 2; i++)
+	for (int i = 0; i < 3; i++)
 	{
 		sh[i]->display();
 	}
@@ -62,7 +62,7 @@ int main()
 	cout << "" << endl;
 	cout << "After Scaling the sqaure Object" << endl;
 	cout << "" << endl;
-	for (int i = 0; i < 2; i++)
+	for (int i = 0; i < 3; i++)
 	{
 		sh[i]->display();
 	}
@@ -71,7 +71,7 @@ int main()
 	cout << "" << endl;
 	cout << "After Scaling the rectangle Object" << endl;
 	cout << "" << endl;
-	for (int i = 0; i < 2; i++)
+	for (int i = 0; i < 3; i++)
 	{
 		sh[i]->display();
 	}
@@ -79,7 +79,7 @@ int main()
 	cout << "" << endl;
 	cout << "Undoing..."<<endl;
 	cout << "" << endl;
-	for (int i = 0; i < 2; i++)
+	for (int i = 0; i < 3; i++)
 	{
 		sh[i]->display();
 	}
@@ -87,7 +87,7 @@ int main()
 	cout << "" << endl;
 	cout << "Undoing"<<std::endl;
 	cout << "" << endl;
-	for (int i = 0; i < 2; i++)
+	for (int i = 0; i < 3; i++)
 	{
 		sh[i]->display();
 	}
@@ -95,7 +95,7 @@ int main()
 	cout << "" << endl;
 	cout << "Redoing"<<std::endl;
 	cout << "" << endl;
-	for (int i = 0; i < 2; i++)
+	for (int i = 0; i < 3; i++)
 	{
 		sh[i]->display();
 	}
